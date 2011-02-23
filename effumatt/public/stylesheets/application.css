@@ -8,6 +8,7 @@ h1 {
 	border: solid 2px black;
 	text-align: center;
 	font-size: 60px;
+	font-weight: bold;
 }
 a img {
   border: none;
