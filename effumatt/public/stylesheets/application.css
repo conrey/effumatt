@@ -5,7 +5,6 @@ body {
 }
 
 h1 {
-	border: solid 2px black;
 	text-align: center;
 	font-size: 72px;
 }
@@ -24,7 +23,7 @@ a {
 }
 
 #container {
-  width: 50%;
+  width: 35%;
   margin: 0 auto;
   background-color: #FFF;
   padding: 20px 40px;
