@@ -82,3 +82,38 @@ Processing SignsController#index (for 127.0.0.1 at 2011-02-22 19:06:59) [GET]
 Rendering template within layouts/application
 Rendering signs/index
 Completed in 8ms (View: 3, DB: 1) | 200 OK [http://localhost/signs]
+
+
+Processing SignsController#index (for 127.0.0.1 at 2011-02-22 19:12:00) [GET]
+  [4;36;1mSign Load (0.6ms)[0m   [0;1mSELECT * FROM "signs" [0m
+Rendering template within layouts/application
+Rendering signs/index
+Completed in 15ms (View: 9, DB: 1) | 200 OK [http://localhost/signs]
+
+
+Processing SignsController#index (for 127.0.0.1 at 2011-02-22 19:12:15) [GET]
+  [4;35;1mSign Load (0.9ms)[0m   [0mSELECT * FROM "signs" [0m
+Rendering template within layouts/application
+Rendering signs/index
+Completed in 15ms (View: 9, DB: 1) | 200 OK [http://localhost/signs]
+
+
+Processing SignsController#index (for 127.0.0.1 at 2011-02-22 19:12:41) [GET]
+  [4;36;1mSign Load (0.6ms)[0m   [0;1mSELECT * FROM "signs" [0m
+Rendering template within layouts/application
+Rendering signs/index
+Completed in 54ms (View: 49, DB: 1) | 200 OK [http://localhost/signs]
+
+
+Processing SignsController#index (for 127.0.0.1 at 2011-02-22 19:12:46) [GET]
+  [4;35;1mSign Load (0.6ms)[0m   [0mSELECT * FROM "signs" [0m
+Rendering template within layouts/application
+Rendering signs/index
+Completed in 9ms (View: 3, DB: 1) | 200 OK [http://localhost/signs]
+
+
+Processing SignsController#index (for 127.0.0.1 at 2011-02-22 19:13:01) [GET]
+  [4;36;1mSign Load (0.6ms)[0m   [0;1mSELECT * FROM "signs" [0m
+Rendering template within layouts/application
+Rendering signs/index
+Completed in 10ms (View: 5, DB: 1) | 200 OK [http://localhost/signs]
