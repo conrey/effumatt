@@ -263,3 +263,52 @@ Processing SignsController#index (for 127.0.0.1 at 2011-02-23 14:28:33) [GET]
 Rendering template within layouts/application
 Rendering signs/index
 Completed in 9ms (View: 3, DB: 1) | 200 OK [http://localhost/signs]
+
+
+Processing SignsController#index (for 127.0.0.1 at 2011-02-23 14:28:45) [GET]
+  [4;35;1mSign Load (0.8ms)[0m   [0mSELECT * FROM "signs" [0m
+Rendering template within layouts/application
+Rendering signs/index
+Completed in 9ms (View: 4, DB: 1) | 200 OK [http://localhost/signs]
+
+
+Processing SignsController#index (for 127.0.0.1 at 2011-02-23 14:28:58) [GET]
+  [4;36;1mSign Load (0.8ms)[0m   [0;1mSELECT * FROM "signs" [0m
+Rendering template within layouts/application
+Rendering signs/index
+Completed in 13ms (View: 4, DB: 1) | 200 OK [http://localhost/signs]
+
+
+Processing SignsController#index (for 127.0.0.1 at 2011-02-23 14:29:04) [GET]
+  [4;35;1mSign Load (0.7ms)[0m   [0mSELECT * FROM "signs" [0m
+Rendering template within layouts/application
+Rendering signs/index
+Completed in 11ms (View: 5, DB: 1) | 200 OK [http://localhost/signs]
+
+
+Processing SignsController#index (for 127.0.0.1 at 2011-02-23 14:29:15) [GET]
+  [4;36;1mSign Load (0.7ms)[0m   [0;1mSELECT * FROM "signs" [0m
+Rendering template within layouts/application
+Rendering signs/index
+Completed in 10ms (View: 3, DB: 1) | 200 OK [http://localhost/signs]
+
+
+Processing SignsController#index (for 127.0.0.1 at 2011-02-23 14:29:26) [GET]
+  [4;35;1mSign Load (0.7ms)[0m   [0mSELECT * FROM "signs" [0m
+Rendering template within layouts/application
+Rendering signs/index
+Completed in 13ms (View: 8, DB: 1) | 200 OK [http://localhost/signs]
+
+
+Processing SignsController#index (for 127.0.0.1 at 2011-02-23 14:30:04) [GET]
+  [4;36;1mSign Load (0.7ms)[0m   [0;1mSELECT * FROM "signs" [0m
+Rendering template within layouts/application
+Rendering signs/index
+Completed in 9ms (View: 3, DB: 1) | 200 OK [http://localhost/signs]
+
+
+Processing SignsController#index (for 127.0.0.1 at 2011-02-23 14:30:10) [GET]
+  [4;35;1mSign Load (0.7ms)[0m   [0mSELECT * FROM "signs" [0m
+Rendering template within layouts/application
+Rendering signs/index
+Completed in 77ms (View: 4, DB: 1) | 200 OK [http://localhost/signs]

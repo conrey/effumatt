@@ -6,7 +6,7 @@ body {
 
 h1 {
 	text-align: center;
-	font-size: 72px;
+	font-size: 84px;
 }
 a img {
   border: none;
@@ -26,9 +26,9 @@ a {
   width: 35%;
   margin: 0 auto;
   background-color: #FFF;
-  padding: 10px 20px;
+  padding: 10px;
   border: solid 2px black;
-  margin-top: 20px;
+  margin-top: 80px;
 }
 
 #flash_notice, #flash_error {
