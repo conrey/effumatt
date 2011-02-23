@@ -1,1 +1,56 @@
 
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (2.0ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (1.8ms)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateSigns (20110223015146)
+  [4;36;1mSQL (0.8ms)[0m   [0;1mCREATE TABLE "signs" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "message" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20110223015146')[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("signs")[0m
+  [4;36;1mSign Create (14.1ms)[0m   [0;1mINSERT INTO "signs" ("created_at", "updated_at", "message") VALUES('2011-02-23 01:55:40', '2011-02-23 01:55:40', 'Fuck You Matt')[0m
+  [4;35;1mSign Load (0.4ms)[0m   [0mSELECT * FROM "signs" [0m
+
+
+Processing SignsController#index (for 127.0.0.1 at 2011-02-22 18:59:20) [GET]
+  [4;36;1mSign Load (0.7ms)[0m   [0;1mSELECT * FROM "signs" [0m
+Rendering signs/index
+
+ActionView::TemplateError (undefined local variable or method `book' for #<ActionView::Base:0x1a52a48>) on line #14 of app/views/signs/index.html.erb:
+11: 
+12: <body>
+13: 	<% for sign in @signs do %>  
+14: 	  <h1><%=h book.message %></h1>   
+15: 	<% end %>
+16: 
+17: </body>
+
+    app/views/signs/index.html.erb:14
+    app/views/signs/index.html.erb:13:in `each'
+    app/views/signs/index.html.erb:13
+
+Rendered rescues/_trace (76.9ms)
+Rendered rescues/_request_and_response (1.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SignsController#index (for 127.0.0.1 at 2011-02-22 18:59:32) [GET]
+  [4;35;1mSign Load (0.5ms)[0m   [0mSELECT * FROM "signs" [0m
+Rendering signs/index
+Completed in 15ms (View: 10, DB: 1) | 200 OK [http://localhost/signs]
