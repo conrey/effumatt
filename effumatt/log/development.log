@@ -174,3 +174,10 @@ Processing SignsController#index (for 127.0.0.1 at 2011-02-23 14:17:21) [GET]
 Rendering template within layouts/application
 Rendering signs/index
 Completed in 8ms (View: 3, DB: 1) | 200 OK [http://localhost/signs]
+
+
+Processing SignsController#index (for 127.0.0.1 at 2011-02-23 14:17:51) [GET]
+  [4;35;1mSign Load (0.8ms)[0m   [0mSELECT * FROM "signs" [0m
+Rendering template within layouts/application
+Rendering signs/index
+Completed in 15ms (View: 3, DB: 1) | 200 OK [http://localhost/signs]
